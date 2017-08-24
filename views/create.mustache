@@ -1,0 +1,26 @@
+<!doctype html>
+  <html>
+    <head>
+      <meta charset='utf-8'>
+      <title>Enter a new book</title>
+    </head>
+      <body>
+        <form method='post' action='/create'>
+          <label for='author'>Author:</label>
+          <input type='text' name='author' id='author' placeholder="Enter author's name">
+          <label for='title:'>Title:</label>
+          <input type='text' name='title' id='title' placeholder='Enter book title'>
+          <label for='publish date:'>Publish Date</label>
+          <input type='date' name='publish_date' id='publish_date' placeholder='Enter the publish date'>
+          <label for='price:'>Price</label>
+          <input type='number' name='price' id='price' placeholder='Enter the price'>
+          <label for='book_order'>Book Order:</label>
+          <input type='number' name='book_order' id='book_order' id='book_order' placeholder='Enter the book order number'>
+          <label for='series_titles'>Series Titles:</label>
+          <input type='text' name='series_titles' id='series_titles' placeholder='Enter the other titles in the series'>
+          <label for='read_again'>Read Again:</label>
+          <input type='text' name='read_again' id='read_again' placeholder='Enter yes or no'>
+          <input type='submit' value='submit'>
+        </form>
+      </body>
+  </html>
